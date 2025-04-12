@@ -6,7 +6,12 @@ import { ToastContainer, toast } from "react-toastify";
 
 const Insert = () => {
 
-  const [input, setInput] = useState({});
+  const [input, setInput] = useState({
+    name: '',
+    rollno: '',
+    city: '',
+    contact: ''
+  });
 
 
   const handleInput = (e) => {
@@ -15,14 +20,6 @@ const Insert = () => {
     setInput(values => ({ ...values, [name]: value }))
     console.log(input);
   }
-
-  // setInput({
-  //   name: "",
-  //   rollno: "",
-  //   city: "",
-  //   contact: ""
-  
-  // })
 
   const handleSubmit = async(e) => {
     e.preventDefault();

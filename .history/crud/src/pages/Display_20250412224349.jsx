@@ -39,8 +39,7 @@ const Display = () => {
           {/* <th>#</th> */}
           <th> Name</th>
           <th>Roll no.</th>
-          <th>city</th>
-          <th>contact</th>
+          <th>Username</th>
         </tr>
       </thead>
       <tbody>

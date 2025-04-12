@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React from 'react'
 import { useState, useEffect } from 'react';
-import Table from 'react-bootstrap/Table';
 const Display = () => {
   const [mydata, setMydata] = useState([]);
 
@@ -33,20 +32,7 @@ const Display = () => {
 
   return (
     <>
-      <Table striped bordered hover>
-      <thead>
-        <tr>
-          {/* <th>#</th> */}
-          <th> Name</th>
-          <th>Roll no.</th>
-          <th>city</th>
-          <th>contact</th>
-        </tr>
-      </thead>
-      <tbody>
-        {ans}
-      </tbody>
-    </Table>
+      
     </>
     
   )

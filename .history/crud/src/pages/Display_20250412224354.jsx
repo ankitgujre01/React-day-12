@@ -40,7 +40,6 @@ const Display = () => {
           <th> Name</th>
           <th>Roll no.</th>
           <th>city</th>
-          <th>contact</th>
         </tr>
       </thead>
       <tbody>

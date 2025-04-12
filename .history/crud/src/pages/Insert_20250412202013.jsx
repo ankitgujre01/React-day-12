@@ -6,7 +6,12 @@ import { ToastContainer, toast } from "react-toastify";
 
 const Insert = () => {
 
-  const [input, setInput] = useState({});
+  const [input, setInput] = useState({
+    name: '',
+    rollno: '',
+    city: '',
+    contact: ''
+  });
 
 
   const handleInput = (e) => {
@@ -15,14 +20,6 @@ const Insert = () => {
     setInput(values => ({ ...values, [name]: value }))
     console.log(input);
   }
-
-  // setInput({
-  //   name: "",
-  //   rollno: "",
-  //   city: "",
-  //   contact: ""
-  
-  // })
 
   const handleSubmit = async(e) => {
     e.preventDefault();
@@ -44,11 +41,11 @@ const Insert = () => {
         <Form.Label>Enter Name</Form.Label>
             <Form.Control type="text" placeholder="Enter name" name='name' value={input.name} onChange={handleInput}/>
             <Form.Label>Enter Roll No.</Form.Label>
-            <Form.Control type="text" placeholder="Enter Roll nu." name='rollno' value={input.rollno} onChange={handleInput}/>
+            <Form.Control type="text" placeholder="Enter Roll nu." name='rollno' onChange={handleInput}/>
             <Form.Label>Enter city</Form.Label>
-            <Form.Control type="text" placeholder="Enter city" name='city' value={input.city} onChange={handleInput}/>
+            <Form.Control type="text" placeholder="Enter city" name='city' onChange={handleInput}/>
             <Form.Label>Enter contact</Form.Label>
-        <Form.Control type="text" placeholder="Enter Contact" name='contact' value={input.contact} onChange={handleInput}/>
+        <Form.Control type="text" placeholder="Enter Contact" name='contact' onChange={handleInput}/>
         
       </Form.Group>
       <Button variant="primary" type="submit" onClick={handleSubmit}>

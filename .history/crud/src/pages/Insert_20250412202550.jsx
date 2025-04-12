@@ -16,13 +16,7 @@ const Insert = () => {
     console.log(input);
   }
 
-  // setInput({
-  //   name: "",
-  //   rollno: "",
-  //   city: "",
-  //   contact: ""
-  
-  // })
+  setInput()
 
   const handleSubmit = async(e) => {
     e.preventDefault();

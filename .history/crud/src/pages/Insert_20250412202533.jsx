@@ -16,14 +16,6 @@ const Insert = () => {
     console.log(input);
   }
 
-  // setInput({
-  //   name: "",
-  //   rollno: "",
-  //   city: "",
-  //   contact: ""
-  
-  // })
-
   const handleSubmit = async(e) => {
     e.preventDefault();
     let api = 'http://localhost:3000/students';

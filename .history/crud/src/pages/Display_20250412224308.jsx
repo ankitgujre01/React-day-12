@@ -36,11 +36,10 @@ const Display = () => {
       <Table striped bordered hover>
       <thead>
         <tr>
-          {/* <th>#</th> */}
-          <th> Name</th>
-          <th>Roll no.</th>
-          <th>city</th>
-          <th>contact</th>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
         </tr>
       </thead>
       <tbody>
