@@ -1,0 +1,28 @@
+#footer{
+    background-color: bisque;
+    margin-top: 20px;
+}
+#myform{
+    width: 320px;
+    margin: auto;
+}
+#mysearchTable{
+    width: 500px;
+    padding: 30px;;
+    border-radius: 20px;
+    border: 2px solid lightseagreen;
+    margin: auto;
+    background-color: lightseagreen;
+}
+#delicon{
+    width: 25px;
+    height: 30px;
+    font-size: 26px;
+    cursor: pointer;
+}
+#editicon{
+    width: 30px;
+    height: 30px;
+    font-size: 26px;
+    cursor: pointer;
+}
