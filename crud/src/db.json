@@ -1,0 +1,147 @@
+{
+  "students": [
+    {
+      "id": "257e"
+    },
+    {
+      "id": "9b6b",
+      "name": "om prakash gujre",
+      "rollno": "123",
+      "city": "BHOPAL",
+      "contact": "1010203040"
+    },
+    {
+      "id": "e702",
+      "name": "edde",
+      "rollno": "321",
+      "city": "ujjain",
+      "contact": "7828000583"
+    },
+    {
+      "id": "85f6",
+      "name": "Ankit Gujre",
+      "rollno": "1230",
+      "city": "Indore",
+      "contact": "6267896536"
+    },
+    {
+      "id": "f205",
+      "name": "Ankit Gujre",
+      "rollno": "1230",
+      "city": "Indore",
+      "contact": "6267896536"
+    },
+    {
+      "id": "e333",
+      "name": "Ankit Gujre",
+      "rollno": "1230",
+      "city": "Indore",
+      "contact": "6267896536"
+    },
+    {
+      "id": "77d9",
+      "name": "Ankit Gujre",
+      "rollno": "1230",
+      "city": "Indore",
+      "contact": "6267896536"
+    },
+    {
+      "id": "80a8",
+      "name": "Ankit Gujre",
+      "rollno": "1230",
+      "city": "Indore",
+      "contact": "6267896536"
+    },
+    {
+      "id": "16d8",
+      "name": "Ankit Gujre",
+      "rollno": "1230",
+      "city": "Indore",
+      "contact": "6267896536"
+    },
+    {
+      "id": "0098",
+      "name": "Ankit Gujre",
+      "rollno": "1230",
+      "city": "Indore",
+      "contact": "6267896536"
+    },
+    {
+      "id": "c1d3",
+      "name": "Ankit Gujre",
+      "rollno": "1230",
+      "city": "Indore",
+      "contact": "6267896536"
+    },
+    {
+      "id": "ad62",
+      "name": "Ankit ",
+      "rollno": "74",
+      "city": "pune",
+      "contact": "900025896"
+    },
+    {
+      "id": "17a6",
+      "name": "Ankit ",
+      "rollno": "74",
+      "city": "pune",
+      "contact": "900025896"
+    },
+    {
+      "id": "f3a6",
+      "name": "Ankit ",
+      "rollno": "74",
+      "city": "pune",
+      "contact": "900025896"
+    },
+    {
+      "id": "2581",
+      "name": "Ankit ",
+      "rollno": "74",
+      "city": "pune",
+      "contact": "900025896"
+    },
+    {
+      "id": "212f",
+      "name": "tanisha",
+      "rollno": "70",
+      "city": "Bhopal",
+      "contact": "55441613"
+    },
+    {
+      "id": "3071",
+      "name": "sunita",
+      "rollno": "201",
+      "city": "Multai",
+      "contact": "95785355"
+    },
+    {
+      "id": "1fdb",
+      "name": "sunita",
+      "rollno": "201",
+      "city": "Multai",
+      "contact": "95785355"
+    },
+    {
+      "id": "42ff",
+      "name": "keshav",
+      "rollno": "785",
+      "city": "betul",
+      "contact": "554153164"
+    },
+    {
+      "id": "34fd",
+      "name": "sumit",
+      "rollno": "222",
+      "city": "rajasthan",
+      "contact": "78910101010"
+    },
+    {
+      "id": "ee4e",
+      "name": "nita",
+      "rollno": "45",
+      "city": "rewa",
+      "contact": "12304560789"
+    }
+  ]
+}
